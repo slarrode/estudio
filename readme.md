@@ -13,11 +13,22 @@ https://github.com/slarrode/estudio.git
 4-Creo el makefile, añado contenido y lo actualizo para subirlo a github
 5-Genero el archivo main.js que ejecutará un hola mundo
 Para ejecutar el programa abro un terminal y escribo make para ejecutarlo
-***me da error e instalo docker,porque por alguna razón no se había instalado ok.***
+***me da error al ejecutar make e instalo desde cygwin 
+https://www.gnu.org/software/make/#download  *** Modifico en visual el arcjivo settings.json y añando el path  Lo añado a las variables de entorno
+añado al json-- {"terminal.integrated.env.windows": {
+    "PATH": "C:\\cygwin64\\bin;${env:PATH}"
+}
+,"terminal.external.windowsExec": "C:\\WINDOWS\\System32\\cmd.exe",
+}
  
-
+ *** Problemas con make make --version   $env:path notepad profile   get-Alias make 
+make hello
+makefile:4: *** missing separator.  Stop.
+PS C:\Users\Silvia\estudio\estudio> ***
 #Node.js
-1-Descargamos el instalador desde elo sitio oficial Node.js Downloads y ejecutamos el instalador
+1-Descargamos el instalador desde elo sitio oficial Node.js Downloads y ejecutamos el instalador.Instalamos todas lsa tools que indica, Errores de instalación
+
+
 
 [dOCUMENTACIÓN DE REDIS](https://github.com/redis/redis)
 2-Descargamos el instalador de Redis para Windows desde Redis Downloads

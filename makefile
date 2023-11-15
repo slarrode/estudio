@@ -1,6 +1,8 @@
-all:hello
-hello:main.js
-node main.js
+all: hello
+
+hello: main.js
+    node main.js
+
 clean:
-rm -f *.log
-rm -f *.out
+    rm -f *.log
+    rm -f *.out
