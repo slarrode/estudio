@@ -82,11 +82,11 @@ PS C:\Users\Silvia\estudio\estudio>
 problema con la comunicación entre Docker Compose y el demonio de Docker.-->Reinstalo, reinicio servicio, reviso que está ejecutado al inicio -> Vuelvo a hacer docker-compose up y ocurre lo mismo 
 
 Voy a docker desktop Configuración > Recursos > WSL Integration y me aseguro  de que mi distribución de WSL esté seleccionada.  C:\Users\Silvia\AppData\Local\Docker\wsl. Le doy permiso en el firewall, compruebo la versión con docker version. parece estar todo ok. Modifico nuevamente el archivo Dockerfile y ya me permite construir el docker-compose up exitosamente.
-PS C:\Users\Silvia\estudio\estudio> docker-compose up para construir e iniciar los contenedores.Esto construirá la imagen según el Dockerfile y ejecutará tus contenedores. 
+PS C:\Users\Silvia\estudio\estudio> docker-compose up para construir e iniciar los contenedores.Esto construirá la imagen según el Dockerfile y ejecutará tus contenedores. Le cuesta muchísimo.
 
 [+] Building 0.0s (0/0)                                                                                                            docker:default
 [+] Building 51.9s (4/9)                                                                                                                                               docker:default                     docker:defaultd build definition from Dockerfile                                                                                                            1.9s
  => [nodejs-redis-app internal] load build definition from Dockerfile 
 
 3-Docker-compose iniciará un contenedor Redis junto con la aplicación node.js
-4-Con los contenedores en funcionamiento, la aplicación Node.js debería estar disponible en http://localhost:3000. 
+4-Con los contenedores en funcionamiento, la aplicación Node.js  está disponible en http://localhost:3000. 
