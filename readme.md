@@ -99,4 +99,6 @@ Hola, mundo!
 7-Ejecuto desde un contnedor docker run --rm -it -p 6379:6379 redis:latest
 1:M 15 Nov 2023 16:49:39.005 * Server initialized
 1:M 15 Nov 2023 16:49:39.005 * Ready to accept connections tcp
-8- Modifico mi arcivo para cmbiar el puerto: const client = redis.createClient({ host: '127.0.0.1', port: 6379 }); Pero no funciona
+8- Modifico mi arcivo para cmbiar el puerto: const client = redis.createClient({ host: '127.0.0.1', port: 6379 }); 127.0.0.1:6379> ping
+PONG
+127.0.0.1:6379>
