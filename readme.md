@@ -93,3 +93,6 @@ PS C:\Users\Silvia\estudio\estudio> docker-compose up para construir e iniciar l
 5-Instalo PS C:\Users\Silvia\estudio\estudio> npm install express
 
 added 62 packages, and audited 73 packages in 10s
+6-PS C:\Users\Silvia\estudio\estudio> node main.js
+Hola, mundo!
+6-Añado la ruta de REdis a variables de entorno
