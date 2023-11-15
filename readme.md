@@ -2,7 +2,7 @@
 [estoy estudiando esto](https://www.php.net/)
 #Instalar Node.js y Redis en mi máquina
 
-#github
+#github y visual Studio Code 
 1-  CReamos cuenta en github. Bajo git para windows https://git-scm.com/download/win y lo instalo. Compruebo que está instalado  con git -version. 
 En visual estudio code buscamosgit clone y pegamos el code copiado de github
 https://github.com/slarrode/estudio.git
@@ -24,7 +24,10 @@ añado al json-- {"terminal.integrated.env.windows": {
  *** Problemas con make make --version   $env:path notepad profile   get-Alias make 
 make hello
 makefile:4: *** missing separator.  Stop.
-PS C:\Users\Silvia\estudio\estudio> ***
+PS C:\Users\Silvia\estudio\estudio>  Serios problemas hasta solucionarlo
+***PS C:\Users\Silvia\estudio\estudio> make
+Hola mundo***
+***
 #Node.js
 1-Descargamos el instalador desde elo sitio oficial Node.js Downloads y ejecutamos el instalador.Instalamos todas lsa tools que indica, Errores de instalación
 
