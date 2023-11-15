@@ -79,5 +79,15 @@ PS C:\Users\Silvia\estudio\estudio> docker-compose up
 request returned Internal Server Error for API route and version http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.config-hash%22%3Atrue%2C%22com.docker.compose.project%3Destudio%22%3Atrue%7D%7D, check if the server supports the requested API version
 PS C:\Users\Silvia\estudio\estudio> 
 
-problema con la comunicación entre Docker Compose y el demonio de Docker.-->Reinstalo, reinicio servicio, reviso que está ejecutado al inicio 
+problema con la comunicación entre Docker Compose y el demonio de Docker.-->Reinstalo, reinicio servicio, reviso que está ejecutado al inicio -> Vuelvo a hacer docker-compose up y ocurre lo mismo 
+
+Voy a docker desktop Configuración > Recursos > WSL Integration y me aseguro  de que mi distribución de WSL esté seleccionada.  C:\Users\Silvia\AppData\Local\Docker\wsl. Le doy permiso en el firewall, compruebo la versión con docker version. parece estar todo ok.
+PS C:\Users\Silvia\estudio\estudio> docker-compose up
+[+] Building 0.4s (2/2) FINISHED                                                                                                   docker:default
+ => [nodejs-redis-app internal] load build definition from Dockerfile                                                                        0.2s
+ => => transferring dockerfile: 415B                                                                                                         0.0s
+ => [nodejs-redis-app internal] load .dockerignore                                                                                           0.2s
+ => => transferring context: 2B                                                                                                              0.0s
+failed to solve: no build stage in current context
+
 
