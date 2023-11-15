@@ -90,3 +90,6 @@ PS C:\Users\Silvia\estudio\estudio> docker-compose up para construir e iniciar l
 
 3-Docker-compose iniciará un contenedor Redis junto con la aplicación node.js
 4-Con los contenedores en funcionamiento, la aplicación Node.js  está disponible en http://localhost:3000. 
+5-Instalo PS C:\Users\Silvia\estudio\estudio> npm install express
+
+added 62 packages, and audited 73 packages in 10s
