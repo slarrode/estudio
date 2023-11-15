@@ -72,3 +72,7 @@ De este modo ejecuta nuestro programa y la conexión a Redis fue exitosa
 
 Por último actualizo mis cambios en Visual Studio Code y compruebo que está OK en Github.
 
+DOCKER: Ya hemos instalado previmente docker desde https://www.docker.com/products/docker-desktop/
+1- Creo los archivos dockerfile y docker-compose
+2- Error WSL command
+
