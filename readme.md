@@ -75,4 +75,9 @@ Por último actualizo mis cambios en Visual Studio Code y compruebo que está OK
 DOCKER: Ya hemos instalado previmente docker desde https://www.docker.com/products/docker-desktop/
 1- Creo los archivos dockerfile y docker-compose
 2- Error WSL command: Me aseguro que el docker desktop launcher se ejecuta al inicio de windows. lo habilito al inicio. 
+PS C:\Users\Silvia\estudio\estudio> docker-compose up
+request returned Internal Server Error for API route and version http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.config-hash%22%3Atrue%2C%22com.docker.compose.project%3Destudio%22%3Atrue%7D%7D, check if the server supports the requested API version
+PS C:\Users\Silvia\estudio\estudio> 
+
+problema con la comunicación entre Docker Compose y el demonio de Docker.-->Reinstalo, reinicio servicio, reviso que está ejecutado al inicio 
 
