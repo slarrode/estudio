@@ -1,5 +1,5 @@
 
-[estoy estudiando esto](https://www.php.net/)
+
 #Instalar Node.js y Redis en mi máquina
 
 #github y visual Studio Code Control de versiones
@@ -7,14 +7,14 @@
 En visual estudio code buscamosgit clone y pegamos el code copiado de github
 https://github.com/slarrode/estudio.git
 2-Genero un makefile , un readme.md y main.js.
- Documentaremos lo que hacemos con REdis, node.js y docker desktop
+ Documentaremos lo que hacemos con REdis, node.js. También he instalado Docker
 3-Instalo en visual docker,makefile tools y markdown all in one y markdownlint.
 ***Me da error de usuario y correo cuando voy a guardar y ejecuto en el terminal git config --global user.name "slarrode"  y git config --global user.email "slarrode@gmail.com" y ya funciona perfecto.***
 4-Creo el makefile, añado contenido y lo actualizo para subirlo a github
 5-Genero el archivo main.js que ejecutará un hola mundo
 Para ejecutar el programa abro un terminal y escribo make para ejecutarlo
 ***me da error al ejecutar make e instalo desde cygwin 
-https://www.gnu.org/software/make/#download  *** Modifico en visual el arcjivo settings.json y añando el path  Lo añado a las variables de entorno
+https://www.gnu.org/software/make/#download  *** Modifico en visual el archivo settings.json y añando el path  Lo añado a las variables de entorno
 añado al json-- {"terminal.integrated.env.windows": {
     "PATH": "C:\\cygwin64\\bin;${env:PATH}"
 }
@@ -26,7 +26,7 @@ make hello
 makefile:4: *** missing separator.  Stop.
 PS C:\Users\Silvia\estudio\estudio>  Serios problemas hasta solucionarlo, entre otros los espacios en makefile,debían ser tabuladores y en algún caso se había colado algún espacio.
 ***PS C:\Users\Silvia\estudio\estudio> make
-Hola mundo***
+Hola mundo***  SE EJECUTA CORRECTAMENTE
 ***
 #Node.js
 1-Descargamos el instalador desde elo sitio oficial Node.js Downloads y ejecutamos el instalador.Instalamos todas lsa tools que indica, Errores de instalación
@@ -69,3 +69,6 @@ PS C:\Users\Silvia\estudio\estudio> node main.js
 Hola, mundo!
 
 De este modo ejecuta nuestro programa y la conexión a Redis fue exitosa
+
+Por último actualizo mis cambios en Visual Studio Code y compruebo que está OK en Github.
+
