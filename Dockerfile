@@ -1,17 +1,20 @@
-# Set the working directory in the container
+# Usa la imagen oficial de Node.js como imagen base
+FROM node:14
+
+# Establece el directorio de trabajo en el contenedor
 WORKDIR /usr/src/app
 
-# Copy package.json and package-lock.json to the working directory
+# Copia package.json y package-lock.json al directorio de trabajo
 COPY package*.json ./
 
-# Install dependencies
+# Instala las dependencias
 RUN npm install
 
-# Copy the rest of the application code
+# Copia el resto del código de la aplicación
 COPY . .
 
-# Expose the port on which your Node.js app will run
+# Expone el puerto en el cual tu aplicación Node.js se ejecutará
 EXPOSE 3000
 
-# Start the application
+# Inicia la aplicación
 CMD ["node", "main.js"]

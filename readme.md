@@ -81,13 +81,10 @@ PS C:\Users\Silvia\estudio\estudio>
 
 problema con la comunicación entre Docker Compose y el demonio de Docker.-->Reinstalo, reinicio servicio, reviso que está ejecutado al inicio -> Vuelvo a hacer docker-compose up y ocurre lo mismo 
 
-Voy a docker desktop Configuración > Recursos > WSL Integration y me aseguro  de que mi distribución de WSL esté seleccionada.  C:\Users\Silvia\AppData\Local\Docker\wsl. Le doy permiso en el firewall, compruebo la versión con docker version. parece estar todo ok.
+Voy a docker desktop Configuración > Recursos > WSL Integration y me aseguro  de que mi distribución de WSL esté seleccionada.  C:\Users\Silvia\AppData\Local\Docker\wsl. Le doy permiso en el firewall, compruebo la versión con docker version. parece estar todo ok. Modifico nuevamente el archivo Dockerfile y ya me permite construir el docker-compose up exitosamente.
 PS C:\Users\Silvia\estudio\estudio> docker-compose up
-[+] Building 0.4s (2/2) FINISHED                                                                                                   docker:default
- => [nodejs-redis-app internal] load build definition from Dockerfile                                                                        0.2s
- => => transferring dockerfile: 415B                                                                                                         0.0s
- => [nodejs-redis-app internal] load .dockerignore                                                                                           0.2s
- => => transferring context: 2B                                                                                                              0.0s
-failed to solve: no build stage in current context
+[+] Building 0.0s (0/0)                                                                                                            docker:default
+[+] Building 51.9s (4/9)                                                                                                                                               docker:default                     docker:defaultd build definition from Dockerfile                                                                                                            1.9s
+ => [nodejs-redis-app internal] load build definition from Dockerfile 
 
-
+3-Docker-compose iniciará un contenedor Redis junto con la aplicación node.js
