@@ -74,5 +74,5 @@ Por último actualizo mis cambios en Visual Studio Code y compruebo que está OK
 
 DOCKER: Ya hemos instalado previmente docker desde https://www.docker.com/products/docker-desktop/
 1- Creo los archivos dockerfile y docker-compose
-2- Error WSL command
+2- Error WSL command: Me aseguro que el docker desktop launcher se ejecuta al inicio de windows. lo habilito al inicio. 
 
